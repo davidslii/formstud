@@ -4,15 +4,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-shopify`,
-      options: {
-        // The domain name of your Shopify shop.
-        shopName: `formstud.myshopify.com/`,
-        // The storefront access token
-        accessToken: `b8a5f2962c7e20855b924ec40dee0b76`,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
           endpoint: 'https://formstud.us1.list-manage.com/subscribe/post?u=23f9c09d26ab4ea98d5c89e4b&amp;id=e0bdccb8cd', // string; add your MC list endpoint here; see instructions below
