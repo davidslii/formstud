@@ -17,6 +17,7 @@ export default function Home({ data }) {
         >
           See what you do, 
           when you're doing it.
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@davidslii/video/6940385144725343494" data-video-id="6940385144725343494"> <section> <a target="_blank" title="@davidslii" href="https://www.tiktok.com/@davidslii">@davidslii</a> <p>swinging</p> <a target="_blank" title="♬ BOOM - Tiesto" href="https://www.tiktok.com/music/BOOM-6542955494212897537">♬ BOOM - Tiesto</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
