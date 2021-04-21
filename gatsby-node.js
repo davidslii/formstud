@@ -41,3 +41,19 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type Mdx implements Node {
+      frontmatter: MdxFrontmatter!
+    }
+    type MdxFrontmatter {
+      featuredImage: File @fileByRelativePath
+      heroImageOne: File @fileByRelativePath
+      heroImageTwo: File @fileByRelativePath
+      heroImageThree: File @fileByRelativePath
+    }
+  `)
+}

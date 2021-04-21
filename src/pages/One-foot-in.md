@@ -1,6 +1,7 @@
 ---
 title: "Ladder - One foot in"
 date: "2021-03-01"
+featuredImage: ../images/bsquat2.jpg
 ---
 
 Even one foot is not easy...

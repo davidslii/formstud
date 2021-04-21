@@ -4,9 +4,13 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 
 export default function BlogPost({ data }) {
-  let post = data.markdownRemark
+  const post = data.markdownRemark
+  const init_featuredImgFluid = post.featuredImage
 
-  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+  let featuredImgFluid = ''
+  if (init_featuredImgFluid !== null) {
+      featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+  }
 
   return (
     <Layout>
@@ -25,6 +29,16 @@ export const query = graphql`
       html
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              src
+              srcSet
+              sizes
+              aspectRatio
+            }
+          }
+        }
       }
     }
   }

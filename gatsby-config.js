@@ -3,6 +3,7 @@ module.exports = {
     title: `Form Stud(y)`,
   },
   plugins: [
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
