@@ -4,6 +4,10 @@ import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import Subscribe from "../components/Subscribe"
+import TO from "../TO.jpg"
+import bsqut1 from "../images/bsquat1.jpg"
+import bsqut2 from "../images/bsquat2.jpg"
+
 
 export default function Home({ data }) {
   return (
@@ -11,12 +15,15 @@ export default function Home({ data }) {
       <div>
         <h1
           css={css`
+            color: blue;
             display: inline-block;
             /border-bottom: 1px solid;
           `}
         >
           See what you do, 
           when you're doing it.
+          <img src={bsqut1} alt="1" />
+          <img src={bsqut2} alt="2" />
           <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@davidslii/video/6940385144725343494" data-video-id="6940385144725343494"> <section> <a target="_blank" title="@davidslii" href="https://www.tiktok.com/@davidslii">@davidslii</a> <p>swinging</p> <a target="_blank" title="♬ BOOM - Tiesto" href="https://www.tiktok.com/music/BOOM-6542955494212897537">♬ BOOM - Tiesto</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
@@ -48,6 +55,7 @@ export default function Home({ data }) {
           </div>
         ))}
       </div><Subscribe />
+      <img src={TO} alt="Terrell Owens on the Star" />
     </Layout>
     
   )
