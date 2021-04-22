@@ -1,7 +1,7 @@
 ---
 title: "70lbs kettlebell swings"
 date: "2021-03-04"
-featuredImage: ../images/bsquat2.jpg
+featuredImage: ../images/kbswing2.jpg
 ---
 
 single-arm kettlebell swings
