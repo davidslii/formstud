@@ -32,7 +32,7 @@ export default function Home({ data }) {
             /border-bottom: 1px solid;
           `}
           >
-          <p>* Video Analysis</p>
+          <p>* Only need your phone for Video Analysis</p>
           <p>* Track Your Progress</p>
           <p>* Share With Your Trainer</p>
           
