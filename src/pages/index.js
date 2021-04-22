@@ -29,7 +29,7 @@ export default function Home({ data }) {
           <h2 css={css`
             color: black;
             display: inline-block;
-            /border-bottom: 1px solid;
+            /border-bottom: thin solid;
           `}
           >
           <p>* Only need your phone for Video Analysis</p>
