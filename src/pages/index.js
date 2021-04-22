@@ -25,6 +25,26 @@ export default function Home({ data }) {
           when you're doing it.
           <img src={kbswing2} alt="1" />
           <img src={bsqut1} alt="2" />
+          <p>Features</p>
+          <h2 css={css`
+            color: black;
+            display: inline-block;
+            /border-bottom: 1px solid;
+          `}
+          >
+          <p>* Video Analysis</p>
+          <p>* Track Your Progress</p>
+          <p>* Share With Your Trainer</p>
+          
+          <p>Details</p>
+          <p>Stop training blind when it comes to your form
+Your movements analyzed to provide corrective feedback
+Track your progress with video comparisons
+Post-workout fatigue/form analysis
+Send your video to your coach/trainer
+Your trainer will be notified of unsafe form/technique issues
+</p>
+</h2>
           <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@davidslii/video/6940385144725343494" data-video-id="6940385144725343494"> <section> <a target="_blank" title="@davidslii" href="https://www.tiktok.com/@davidslii">@davidslii</a> <p>swinging</p> <a target="_blank" title="♬ BOOM - Tiesto" href="https://www.tiktok.com/music/BOOM-6542955494212897537">♬ BOOM - Tiesto</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
