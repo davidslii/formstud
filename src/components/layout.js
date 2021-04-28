@@ -29,7 +29,7 @@ export default function Layout({ children }) {
           css={css`
             margin-bottom: ${rhythm(2)};
             display: inline-block;
-            font-style: normal;
+            font-style: thick;
           `}
         >
           {data.site.siteMetadata.title}
