@@ -24,9 +24,11 @@ export default function Home({ data }) {
         >
           See what you do, 
           when you're doing it.
-          <img src={topswing} alt="kb swing" />
           <img src={kbswing2} alt="1" />
+          <img src={topswing} alt="kb swing" />
           <img src={bsqut1} alt="2" />
+          <p></p>
+          <p></p>
           <p>Features</p>
           <h2 css={css`
             color: black;
@@ -38,7 +40,15 @@ export default function Home({ data }) {
           <p>* Track Your Progress</p>
           <p>* Share With Your Trainer</p>
           
+          <p></p>
+          <p></p>
           <p>Details</p>
+          <h2 css={css`
+            color: blue;
+            display: inline-block;
+            border-bottom: 1x solid;
+          `}
+          ></h2>
           <p>Stop training blind when it comes to your form
 Your movements analyzed to provide corrective feedback
 Track your progress with video comparisons
