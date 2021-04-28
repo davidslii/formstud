@@ -8,6 +8,7 @@ import TO from "../TO.jpg"
 import bsqut1 from "../images/bsquat1.jpg"
 import bsqut2 from "../images/bsquat2.jpg"
 import kbswing2 from "../images/kbswing2.jpg"
+import topswing from "../images/top-swing.png"
 
 
 export default function Home({ data }) {
@@ -23,6 +24,7 @@ export default function Home({ data }) {
         >
           See what you do, 
           when you're doing it.
+          <img src={topswing} alt="kb swing" />
           <img src={kbswing2} alt="1" />
           <img src={bsqut1} alt="2" />
           <p>Features</p>
