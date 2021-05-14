@@ -89,6 +89,7 @@ Your trainer will be notified of unsafe form/technique issues
         ))}
       </div><Subscribe />
       <img src={TO} alt="Terrell Owens on the Star" />
+      <img src="https://www.dropbox.com/s/xenjutw6lvb3wmd/D%20-%20DJI_20210419_154259_170_video_exported_41486.jpg?dl=0" alt="squat" />
     </Layout>
     
   )
