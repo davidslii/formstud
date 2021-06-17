@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Form Stud(y)`,
   },
+  flags: {
+    FUNCTIONS: true
+  },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
