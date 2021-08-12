@@ -27,8 +27,7 @@ const handler = (req, res) => {
           fields: {
             Name: data.name,
             Date: data.date,
-            Knees: data.message,
-            Back: data.message,
+            Message: data.message,
           },
         },
       ],
