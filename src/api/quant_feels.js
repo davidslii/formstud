@@ -27,7 +27,7 @@ const handler = (req, res) => {
           fields: {
             Date: data.date,
             Muscle: data.muscle,
-            Rating: data.rating,
+            status: data.status,
           },
         },
       ],

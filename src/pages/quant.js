@@ -22,11 +22,11 @@ export default function AirtableUI() {
       <div style={{ marginBottom: `24px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="rating"
+          htmlFor="status"
         >
-          Rating:
+          Status (%):
         </label>
-        <input name="rating" id="rating" type="Rating" />
+        <input name="status" id="status" type="Percent" />
       </div>
       <div>
         <button>Submit</button>
