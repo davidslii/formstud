@@ -6,27 +6,27 @@ export default function AirtableUI() {
       <h2 style={{ marginBottom: `16px` }}>How do you feel?</h2>
       <div style={{ marginBottom: `8px` }}>
         <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
-          Name:
+          Date:
         </label>
-        <input name="name" id="name" />
+        <input name="date" id="date" type="date" />
       </div>
       <div style={{ marginBottom: `8px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="email"
+          htmlFor="muscle"
         >
-          Email:
+          Muscle:
         </label>
-        <input name="email" id="email" type="email" />
+        <input name="muscle" id="muscle" />
       </div>
       <div style={{ marginBottom: `24px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="message"
+          htmlFor="status"
         >
-          Knees:
+          Status:
         </label>
-        <textarea name="message" id="message" />
+        <textarea name="Status" id="status" type="number" />
       </div>
       <div>
         <button>Submit</button>
