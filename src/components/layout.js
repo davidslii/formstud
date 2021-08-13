@@ -43,6 +43,14 @@ export default function Layout({ children }) {
       >
         About
       </Link>
+      <Link
+        to={`/quant/`}
+        css={css`
+          float: right;
+        `}
+      >
+        How does your body feel?
+      </Link>
       {children}
     </div>
   )
