@@ -26,7 +26,7 @@ export default function AirtableUI() {
         >
           Status:
         </label>
-        <textarea name="Status" id="status" type="number" />
+        <input name="status" id="status" type="number" />
       </div>
       <div>
         <button>Submit</button>
