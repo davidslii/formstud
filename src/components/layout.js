@@ -46,7 +46,7 @@ export default function Layout({ children }) {
       <Link
         to={`/quant/`}
         css={css`
-          float: right;
+          float: center;
         `}
       >
         How does your body feel?
