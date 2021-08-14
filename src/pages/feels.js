@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function AirtableUI() {
   return (
-    <form action="/api/airtable" method="POST">
+    <form action="/api/feels" method="POST">
       <h2 style={{ marginBottom: `16px` }}>Add person to Airtable</h2>
       <div style={{ marginBottom: `8px` }}>
         <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
