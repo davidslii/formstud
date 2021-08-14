@@ -6,9 +6,9 @@ export default function AirtableUI() {
       <h2 style={{ marginBottom: `16px` }}>Add person to Airtable</h2>
       <div style={{ marginBottom: `8px` }}>
         <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
-          Name:
+          Muscle:
         </label>
-        <input name="name" id="name" />
+        <input name="muscle" id="muscle" />
       </div>
       <div style={{ marginBottom: `8px` }}>
         <label
