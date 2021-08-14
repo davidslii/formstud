@@ -13,11 +13,11 @@ export default function AirtableUI() {
       <div style={{ marginBottom: `8px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="date"
+          htmlFor="name"
         >
           Date:
         </label>
-        <input name="Date" id="date" type="date" />
+        <input name="date" id="date" type="date" />
       </div>
       <div style={{ marginBottom: `24px` }}>
         <label
