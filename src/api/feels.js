@@ -7,7 +7,7 @@ Airtable.configure({
 })
 
 // Your Table ID from Airtable
-const db = Airtable.base(process.env.AIRTABLE_DB)
+const db = Airtable.base(process.env.FEELS)
 
 const handler = (req, res) => {
   try {
