@@ -27,6 +27,7 @@ const handler = (req, res) => {
           fields: {
             Name: data.name,
             Email: data.email,
+            Date: data.Date,
             Message: data.message,
           },
         },
