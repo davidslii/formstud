@@ -22,11 +22,11 @@ export default function AirtableUI() {
       <div style={{ marginBottom: `24px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="status"
+          htmlFor="message"
         >
           Status (out of 10):
         </label>
-        <textarea name="Status" id="status" />
+        <textarea name="Message" id="message" />
       </div>
       <div>
         <button>Submit</button>
