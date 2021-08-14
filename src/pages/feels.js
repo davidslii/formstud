@@ -3,9 +3,9 @@ import * as React from "react"
 export default function AirtableUI() {
   return (
     <form action="/api/feels" method="POST">
-      <h2 style={{ marginBottom: `16px` }}>Add person to Airtable</h2>
+      <h2 style={{ marginBottom: `16px` }}>Add your feels</h2>
       <div style={{ marginBottom: `8px` }}>
-        <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
+        <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="muscle">
           Muscle:
         </label>
         <input name="muscle" id="muscle" />
@@ -13,11 +13,11 @@ export default function AirtableUI() {
       <div style={{ marginBottom: `8px` }}>
         <label
           style={{ display: `block`, marginBottom: `4px` }}
-          htmlFor="email"
+          htmlFor="date"
         >
-          Email:
+          Date:
         </label>
-        <input name="email" id="email" type="email" />
+        <input name="Date" id="date" type="date" />
       </div>
       <div style={{ marginBottom: `24px` }}>
         <label
