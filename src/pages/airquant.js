@@ -21,9 +21,9 @@ export default function AirtableUI() {
       </div>
       <div style={{ marginBottom: `8px` }}>
         <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
-          Date:
+          Muscle:
         </label>
-        <input name="date" id="date" type="date" />
+        <input name="muscle" id="muscle" />
       </div>
       <div style={{ marginBottom: `24px` }}>
         <label
@@ -35,7 +35,7 @@ export default function AirtableUI() {
         <textarea name="message" id="message" />
       </div>
       <div>
-        <button>Submit new person</button>
+        <button>Submit new</button>
       </div>
     </form>
   )
