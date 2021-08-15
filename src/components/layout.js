@@ -44,7 +44,7 @@ export default function Layout({ children }) {
         About
       </Link>
       <Link
-        to={`/quant/`}
+        to={`/airquant/`}
         css={css`
           float: center;
         `}

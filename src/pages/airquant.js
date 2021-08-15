@@ -15,9 +15,9 @@ export default function AirtableUI() {
           style={{ display: `block`, marginBottom: `4px` }}
           htmlFor="email"
         >
-          Email:
+          Video:
         </label>
-        <input name="email" id="email" type="email" />
+        <input name="email" id="email" type="URL" />
       </div>
       <div style={{ marginBottom: `8px` }}>
         <label style={{ display: `block`, marginBottom: `4px` }} htmlFor="name">
